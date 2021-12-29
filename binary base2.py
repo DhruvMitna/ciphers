@@ -5,7 +5,7 @@ try:
 
     if action == "encode":
 
-        print(bin(num).replace("0b",""))
+        print(bin(int(num)).replace("0b",""))
 
     elif action == "decode":
 
